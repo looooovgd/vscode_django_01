@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-7w!=tj7&0g2ktyorlkxol6k_c$0xt@gv_z2&p8ra1*&^3q#k%w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    #여기에 ".ap-northeast-2.compute.amazonaws.com" 이런식으로 넣어줘야함.
+    ""
+]
 
 
 # Application definition
