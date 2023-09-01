@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     #여기에 ".ap-northeast-2.compute.amazonaws.com" 이런식으로 넣어줘야함.
-    ""
+    "34.64.163.200/",
+    "",
 ]
 
 
@@ -107,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ko-kr'
 
 TIME_ZONE = 'UTC'
 
