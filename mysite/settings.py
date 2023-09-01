@@ -27,8 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     #여기에 ".ap-northeast-2.compute.amazonaws.com" 이런식으로 넣어줘야함.
-    "34.64.163.200/",
-    "",
+    '34.64.163.200'
+    
 ]
 
 
