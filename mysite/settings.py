@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-7w!=tj7&0g2ktyorlkxol6k_c$0xt@gv_z2&p8ra1*&^3q#k%w
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    #여기에 ".ap-northeast-2.compute.amazonaws.com" 이런식으로 넣어줘야함.
-    '34.64.163.200'
+    #여기에 '.ap-northeast-2.compute.amazonaws.com' 이런식으로 넣어줘야함. (콤마 주의... 왜 차이나는 지는 모르겠다.)
+    '34.64.163.200' 
     
 ]
 
